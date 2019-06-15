@@ -1,0 +1,12 @@
+INPUT :
+ {{10,12}, {13,25}, {66,68}, {37, 49}}
+
+OUTPUT :
+13.342
+13.342
+
+--------------------------------
+Process exited after 0.1359 seconds with return value 0
+Press any key to continue . . .
+
+

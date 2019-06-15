@@ -1,0 +1,17 @@
+Enter the size of array
+6
+Enter the elements of array :
+43
+-23
+34
+78
+-1
+-67
+The maxsum is 112
+
+--------------------------------
+Process exited after 51.52 seconds with return value 0
+Press any key to continue . . .
+
+
+
