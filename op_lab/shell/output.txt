@@ -1,0 +1,57 @@
+ratna@Ratna:~/Downloads/op_lab/263.18042019$ sh p1.sh
+/home/ratna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+     1	/home/ratna/.local/bin
+     2	/usr/local/sbin
+     3	/usr/local/bin
+     4	/usr/sbin
+     5	/usr/bin
+     6	/sbin
+     7	/bin
+     8	/usr/games
+     9	/usr/local/games
+    10	/snap/bin
+    11	/usr/lib/jvm/java-8-oracle/bin
+    12	/usr/lib/jvm/java-8-oracle/db/bin
+    13	/usr/lib/jvm/java-8-oracle/jre/bin
+
+
+Question  1 Ans
+
+
+Question  2
+Disk /dev/sda: 931.5 GiB, 1000204886016 bytes, 1953525168 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: gpt
+Disk identifier: 1DC4ED97-EF9B-4039-A4E2-8FD3A0073142
+
+Device       Start        End    Sectors  Size Type
+/dev/sda1     2048    1050623    1048576  512M EFI System
+/dev/sda2  1050624 1953523711 1952473088  931G Linux filesystem
+
+
+Question  3 Ans
+total 4.0K
+-rwxrwxrwx 1 ratna ratna 1.2K Apr 18 16:25 p1.sh
+
+
+Question  4 Ans
+vendor_id	: GenuineIntel
+model name	: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+cpu MHz		: 1204.002
+cache size	: 3072 KB
+
+
+Question  5 Ans
+NAME="Ubuntu"
+VERSION="18.04.2 LTS (Bionic Beaver)"
+Kernel Release ="4.15.0-47-generic"
+Release Number ="#50-Ubuntu SMP Wed Mar 13 10:44:52 UTC 2019"
+
+
+Question  6 Ans
+8.0K	./
+Yay Completed Ass !     
+ratna@Ratna:~/Downloads/op_lab/263.18042019$ 
+
