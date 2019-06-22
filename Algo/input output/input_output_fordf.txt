@@ -1,0 +1,14 @@
+ratna@Ratna:~$ python
+Python 2.7.15rc1 (default, Apr 15 2018, 21:51:34) 
+[GCC 7.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+[1]+  Stopped                 python
+ratna@Ratna:~$ cd Downloads
+ratna@Ratna:~/Downloads$ gedit fordfulk.py&
+[2] 2756
+ratna@Ratna:~/Downloads$ python fordfulk.py
+The maximum possible flow is 8 
+ratna@Ratna:~/Downloads$ 
+
+

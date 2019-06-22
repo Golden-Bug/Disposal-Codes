@@ -1,0 +1,9 @@
+
+Distance of node1=20
+Path=1<-4<-0
+Distance of node2=102
+Path=2<-4<-0
+Distance of node3=7
+Path=3<-4<-0
+Distance of node4=2
+Path=4<-0

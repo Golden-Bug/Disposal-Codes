@@ -1,0 +1,17 @@
+ratna@Ratna:~$ python
+Python 2.7.15rc1 (default, Apr 15 2018, 21:51:34) 
+[GCC 7.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+[1]+  Stopped                 python
+ratna@Ratna:~$ gedit bipartite.py&
+[2] 2938
+ratna@Ratna:~$ python bipartite.py
+Yes
+[2]-  Done                    gedit bipartite.py
+ratna@Ratna:~$ python bipartite.py
+Enter the value of row/column4
+Yes
+ratna@Ratna:~$ ^C
+
+
