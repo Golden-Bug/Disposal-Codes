@@ -1,0 +1,8 @@
+Enter the number of elements you want randomly generated and sorted: 78
+The sorted elements are:  4  28  47  61  86  87  94  109  125  126  133  136  137  151  161  167  173  205  229  235  249  249  288  312  313  343  367  385  396  401  405  412  423  425  440  500  501  510  515  515  521  528  531  579  594  637  638  641  651  655  665  675  675  677  678  682  689  689  691  694  695  697  701  708  745  753  758  838  852  852  855  889  924  946  954  958  977  989
+Time taken to sort the elements: 13.811000 seconds
+
+--------------------------------
+Process exited after 14.08 seconds with return value 0
+Press any key to continue . . .
+
