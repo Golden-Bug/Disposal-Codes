@@ -1,0 +1,45 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 12.11.2018 11:56:16
+// Design Name: 
+// Module Name: counter
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module upcounter(
+    input clk,
+    input clr,
+    output q1, q2, q3
+);
+reg a1, a2, a3;
+incrementer abc(.s1(a1), .s2(a2), .s3(a3), .t1(q1), .t2(q2), .t3(q3));
+always @(posedge(clk))
+begin
+if(clr)
+begin
+assign a1=1'b1;
+assign a2=1'b1;
+assign a3=1'b1;
+end
+else
+begin
+assign a1=q1;
+assign a2=q2;
+assign a3=q3;
+end
+end
+endmodule

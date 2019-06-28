@@ -1,0 +1,46 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 12.11.2018 05:26:24
+// Design Name: 
+// Module Name: 3bitfulladder
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module threebitfulladder(
+    input a1,
+    input a2,
+    input a3,
+    input b1,
+    input b2,
+    input b3,
+    input cin,
+    input s1,
+    input s2,
+    input s3,
+    input cout
+    );
+wire ha1_sum, ha3_sum, ha5_sum, ct1, ct2, ha3_carry, ha1_carry, ha5_carry, ha4_carry, ha2_carry, ha6_carry;    
+halfadder ha1(.a(a1), .b(b1), .s(ha1_sum), .c(ha1_carry));
+halfadder ha2(.a(cin), .b(ha1_sum), .s(s1), .c(ha2_carry));
+halfadder ha3(.a(a2), .b(b2), .s(ha3_sum), .c(ha3_carry));
+halfadder ha4(.a(ct1), .b(ha3_sum), .s(s2), .c(ha4_carry));
+halfadder ha5(.a(a3), .b(b3), .s(ha5_sum), .c(ha5_carry));
+halfadder ha6(.a(ct2), .b(ha5_sum), .s(s3), .c(ha6_carry));
+assign ct1=ha1_carry|ha2_carry;
+assign ct2=ha3_carry|ha4_carry;
+assign cout=ha5_carry|ha6_carry;    
+endmodule
