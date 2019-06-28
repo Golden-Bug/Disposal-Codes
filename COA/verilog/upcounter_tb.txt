@@ -1,0 +1,15 @@
+module up_tb();
+reg clk,clr;
+wire [3:0] q;
+
+upcounter abc(clk,clr,q);
+initial begin
+clk=0;
+forever #5 clk=~clk;
+end
+initial begin
+clr=1;
+#10
+clr=0;
+end
+endmodule
