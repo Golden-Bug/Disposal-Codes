@@ -1,0 +1,26 @@
+module adder(
+    input a,
+    input b,
+    input cin,
+    output s,
+    output cout
+    );
+wire ha1_sum;
+wire ha2_sum;
+wire ha1_cout;
+wire ha2_cout;    
+halfadder ha1(
+.a(a),
+.b(b),
+.c(ha1_cout),
+.s(ha1_sum)
+);
+halfadder ha2(
+.a(cin),
+.b(ha1_sum),
+.c(ha2_cout),
+.s(ha2_sum)
+);
+assign s=ha2_sum;
+assign cout=ha1_cout|ha2_cout;
+endmodule
