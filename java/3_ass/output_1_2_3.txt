@@ -1,0 +1,87 @@
+// Output of
+ 
+Question 1 :
+
+ratna@Ratna:~/Documents/java/3_ass$ javac Storedata.java
+ratna@Ratna:~/Documents/java/3_ass$ java Main
+For Stack :
+Enter the numbers you want to give
+3
+Enter the value to insert :
+23
+Enter the value to insert :
+67
+Enter the value to insert :
+89
+Enter the numbers you want to delete
+2
+The value deleted is 89
+The value deleted is 67
+For Queue :
+Enter the numbers you want to give
+1
+Enter the value to insert :
+45
+Enter the numbers you want to delete
+1
+The value deleted is 45
+
+
+
+// output of
+
+Question 2
+
+
+ratna@Ratna:~/Documents/java/3_ass$ javac Employee.java
+ratna@Ratna:~/Documents/java/3_ass$ java Main
+ID : M01
+Name : John Doe
+Salary : 109000.0
+ID : C01
+Name : Clerk Doe
+Salary : 2900.0
+ID : O01
+Name : Officer Doe
+Salary : 30500.0
+
+
+
+// Output of
+
+Question 3
+
+ratna@Ratna:~/Documents/java/3_ass$ java Validate
+ratna
+priya2
+12/12/2015
+ratna@.com     
+First Name: ratna
+Please enter a valid name
+Date of Birth: 12/12/2015
+Please enter a valid domain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
