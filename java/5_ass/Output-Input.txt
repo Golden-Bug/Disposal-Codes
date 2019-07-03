@@ -1,0 +1,17 @@
+Output-Input
+
+Question1 :
+ratna@Ratna:~/Documents/java/5_ass$ javac -d . match.java
+ratna@Ratna:~/Documents/java/5_ass$ javac -d . Play1.java
+ratna@Ratna:~/Documents/java/5_ass$ java match.Play1
+Sheena has scored 38
+Shlok has scored 18
+Shayan has scored 55
+
+
+Question2 :
+ratna@Ratna:~/Documents/java/5_ass$ javac -d . Payroll.java
+ratna@Ratna:~/Documents/java/5_ass$ javac -d . Play.java
+ratna@Ratna:~/Documents/java/5_ass$ java Payroll.Play
+Royal is the club of player 
+0 is the payment of player
