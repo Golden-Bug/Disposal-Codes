@@ -1,0 +1,44 @@
+ratna@Ratna:~/Documents/java$ cd 6_ass
+ratna@Ratna:~/Documents/java/6_ass$ javac 6_ass.java
+ratna@Ratna:~/Documents/java/6_ass$ java 6_ass
+Error: Could not find or load main class 6_ass
+Caused by: java.lang.ClassNotFoundException: 6_ass
+ratna@Ratna:~/Documents/java/6_ass$ java main
+Perimeter of shape 0 is 16.0
+Perimeter of shape 1 is 24.0
+Perimeter of shape 2 is 26.0
+Perimeter of shape 3 is 20.0
+Perimeter of shape 4 is 25.12
+Perimeter of shape 5 is 18.84
+Perimeter of shape 6 is 17.05
+Perimeter of shape 7 is 23.869999999999997
+Area of shape 0 is 16.0
+Area of shape 1 is 36.0
+Area of shape 2 is 36.0
+Area of shape 3 is 24.0
+Area of shape 4 is 50.24
+Area of shape 5 is 28.259999999999998
+Area of shape 6 is 12.5
+Area of shape 7 is 24.5
+Shape with max area is 4
+Shape with 2nd max area is 1
+Shape with max perimeter is 2
+Shape with 2nd max perimeter is 4
+Shape with min perimeter is 0
+Shape with min area is 6
+shape_area/dams of shape 0 is 1.1235955056179774
+shape_perimeter/dpms of shape 0 is 18.1818181818182
+shape_area/dams of shape 1 is 2.528089887640449
+shape_perimeter/dpms of shape 1 is 27.272727272727302
+shape_area/dams of shape 2 is 2.528089887640449
+shape_perimeter/dpms of shape 2 is 29.54545454545458
+shape_area/dams of shape 3 is 1.685393258426966
+shape_perimeter/dpms of shape 3 is 22.72727272727275
+shape_area/dams of shape 4 is 3.528089887640449
+shape_perimeter/dpms of shape 4 is 28.54545454545458
+shape_area/dams of shape 5 is 1.9845505617977524
+shape_perimeter/dpms of shape 5 is 21.40909090909093
+shape_area/dams of shape 6 is 0.8778089887640448
+shape_perimeter/dpms of shape 6 is 19.37500000000002
+shape_area/dams of shape 7 is 1.7205056179775278
+shape_perimeter/dpms of shape 7 is 27.12500000000003
