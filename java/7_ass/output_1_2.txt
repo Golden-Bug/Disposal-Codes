@@ -1,0 +1,44 @@
+//Question 1 output
+
+ratna@Ratna:~/Documents/java/7_ass$ javac filereader.java
+ratna@Ratna:~/Documents/java/7_ass$ java filereader
+Average length of a 5.0
+Average length of b 3.0
+Average length of c 3.0
+Average length of d 2.0
+Average length of e 4.0
+Average length of f 5.0
+Average length of g 4.0
+Average length of h 9.0
+Average length of i 2.0
+Average length of j 3.0
+Average length of k 5.0
+Average length of l 3.0
+Average length of m 2.0
+Average length of n 3.0
+Average length of o 10.0
+Average length of p 6.0
+Average length of r 3.0
+Average length of s 4.0
+Average length of t 13.0
+Average length of u 7.0
+Average length of v 7.0
+Average length of w 2.0
+Largest word in the text: International
+Word count of the text: 164
+Punctuation count of the text: 9
+ The swashbuckling batsman is just 27 runs away
+from joining the likes of MS Dhoni, Mohammad Azharuddin and Sourav Ganguly in an elite
+list
+ If Kohli manages to score 27 runs then the 30-year-old will become only the 12th cricketer
+to score past the 4000-run mark as a captain in ODI cricket and will only be the fourth Indian
+skipper to do so
+
+In ODIs, Kohli has 3973 runs while captaining the side, whereas Dhoni had scored 6641 runs
+as the Indian skipper in the shorter format of the game
+ Azharuddin and Ganguly had 5239 and
+5104 runs respectively to their name as an Indian ODI skipper
+
+
+//// Question 2 output
+
