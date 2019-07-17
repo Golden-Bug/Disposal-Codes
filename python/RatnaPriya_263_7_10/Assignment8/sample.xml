@@ -1,0 +1,30 @@
+<collection shelf="Students Details">
+<student name="Robin">
+   <class>V</class>
+   <section>C</section>
+   <age>10</age>
+   <roll>21</roll>
+   <avg_marks>58.67</avg_marks>
+</student>
+<student name="Shyamal">
+   <age>11</age>
+   <class>VI</class>
+   <roll>1</roll>
+   <section>A</section>
+   <avg_marks>98.67</avg_marks>
+</student>
+<student name="Sima">
+   <class>VII</class>
+   <section>B</section>
+   <age>13</age>
+   <roll>2</roll>
+   <avg_marks>88.64</avg_marks>
+</student>
+<student name="Mrinal">
+   <section>C</section>
+   <age>11</age>
+   <roll>12</roll>
+   <avg_marks>77.53</avg_marks>
+   <class>V</class>
+</student>
+</collection>
